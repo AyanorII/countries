@@ -1,0 +1,7 @@
+.theme-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: inherit;
+}

@@ -1,0 +1,17 @@
+.react-select__control {
+  background-color: var(--light-primary);
+  border-color: transparent;
+}
+
+.react-select__menu {
+  background-color: var(--light-primary);
+  border-color: transparent;
+}
+
+.App.dark .react-select__control,
+.App.dark .react-select__menu,
+.App.dark .react-select__value-container--has-value {
+  border-color: transparent;
+  background-color: var(--dark-primary);
+  color: var(--light-primary);
+}
